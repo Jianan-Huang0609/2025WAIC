@@ -109,37 +109,26 @@
 
 ## 🚀 快速开始
 
-### 环境要求
-- Node.js 16+ 
-- 现代浏览器（支持 ES6+）
+### 🌐 在线访问
+直接点击链接即可访问：**[WAIC 2025 展会总结](WAIC2025.html)**
 
-### 本地运行
+### 🔧 技术说明
+- **纯静态网页**：无需服务器环境
+- **现代浏览器**：支持 ES6+ 和 CSS Grid/Flexbox
+- **响应式设计**：适配桌面、平板、手机等设备
+- **CDN资源**：使用 TailwindCSS、Framer Motion 等CDN库
 
-```bash
-# 1. 克隆本仓库
-git clone https://github.com/yourname/2025waic-share-site.git
-
-# 2. 进入项目目录
-cd 2025waic-share-site
-
-# 3. 安装依赖（如使用 Next.js 项目结构）
-npm install
-
-# 4. 启动本地预览
-npm run dev
-
-# 5. 打开浏览器访问
-# http://localhost:3000
+### 📁 项目结构
 ```
-
-### 部署说明
-
-```bash
-# 构建生产版本
-npm run build
-
-# 部署到静态服务器
-npm run export
+WAIC 网页/
+├── WAIC2025.html          # 主页面文件
+├── README.md              # 项目说明文档
+├── image/                 # 展会图片资源
+│   ├── 图片1.jpg
+│   ├── 图片2.jpg
+│   └── ...
+└── image_BG/              # 背景图片资源
+    └── dc873de6399b8b16c4f44611d20369b3.jpg
 ```
 
 ---
@@ -160,4 +149,4 @@ npm run export
 
 ---
 
-*最后更新：2025年1月*
+*最后更新：2025年7月*
